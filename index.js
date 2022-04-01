@@ -113,7 +113,7 @@ app.get("/", (req, res) => {
               console.log(err);
               console.log("NOT DONE");
             });
-        }, 1000 * 8);
+        }, 1000 * 8*60);
       })
       .catch((err) => {
         console.log(err);
